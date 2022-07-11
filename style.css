@@ -1,0 +1,47 @@
+h1{
+    font-family: 'Pacifico', cursive;
+}
+
+#background{
+    background-color:black;
+}
+
+p{
+    font-size:30px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#score{
+    float:left;
+    font-size:35px;
+    margin-top:150px;
+    font-family: 'Dancing Script', cursive;
+    margin-left:20px;
+}
+
+#timer{
+    float:right;
+    font-size:35px;
+    margin-top:150px;
+    font-family: 'Dancing Script', cursive;
+    margin-right:20px;
+}
+
+#modal_button{
+    float:right;
+    margin-right:20px;
+}
+
+canvas{
+    border: 6px ridge white;
+    border-radius:20px;
+    animation-name:changeColor;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    margin-top:300px;
+}
+
+@keyframes changeColor{
+    from{box-shadow: 1px 1px 100px red;}
+    to{box-shadow: 1px 1px 100px aqua;}
+}
